@@ -1,15 +1,16 @@
-html {  
-    background: url(images/boba.png) no-repeat center center fixed; background-size: cover; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    } 
-    /* If in case you wish to turn off the white bg in bootstrap */ 
-    body{ 
-    background-color: transparent; 
-    /*
-    - found this html backgroundd styling/code from: https://www.quora.com/How-do-I-make-the-background-image-responsive-in-Bootstrap
-    - code was posted by Abhilash Pillai, Online Educator at youtube.com/makdi (2016-present)
-        - 3rd post down from the top of the page.
-    */
-} 
+.dropdown-menu li {
+    position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+  }
