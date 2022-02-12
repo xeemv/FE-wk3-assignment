@@ -49,24 +49,26 @@
         <!-- <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url(./images/boba.png); height: 100vh; no-repeat center center fixed; background-size: cover; "></div> -->
 
       <!-- main section  -->
-    <section class="main">
+      <section class="main">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12">
+                <div class="col-sm-12 col-md-12 mt-4">
                     <h2 class="text-center">Welcome to the Boba World shop where you can find unlimited flavors to mix and match for your Boba tea drink on the go.</h2> 
                 </div>
             </div>
         </div>
     </section>
 
-<!-- Flavors -->
-<div class="container">
+<!-- Flavors - table -->
+<div class="container" id="boba-box">
+  <div class="mb-6 mt-5">
     <div class="row">
-            <table class="table table-striped table-hover table-bordered table caption-top table-responsive-md">
+            <table class="table table-striped table-hover table-bordered table caption-top table-responsive-md table-responsive-stack">
+              <!-- <table class="table table-bordered table-striped table-responsive-stack" id="tableOne"> -->
                 <caption class="text-center">Mix-N-Match from the options below.</caption>
                 <thead class="table-dark">
                 <tr>
-                    <th scope="col">Drink Price per size</th>
+                    <th scope="col">Price per size</th>
                     <th scope="col">Flavors</th>
                     <th scope="col">Toppings</th>
                     <th scope="col">Type of Tea</th>
@@ -106,7 +108,7 @@
                       <!-- adding drop down option to easily select items in that category -->
                     <!-- sort all these manually to be alphabetic  -->
                     <td><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                      Types of Boba
+                      Boba <br> Types
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <li><button class="dropdown-item" type="button">Jelly</button></li>                 
@@ -138,7 +140,7 @@
                     <!-- adding drop down option to easily select items in that category -->
                     <!-- sort all these manually to be alphabetic  -->
                     <td><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                      Less Fruity Flavor
+                      Non <br> Fruit
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <li><button class="dropdown-item" type="button">Almond</button></li>
@@ -156,7 +158,7 @@
                     <!-- adding drop down option to easily select items in that category -->
                     <!-- sort all these manually to be alphabetic  -->
                     <td><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                      Fresh Fruit slices
+                      Fruit <br> slices
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <li><button class="dropdown-item" type="button">Banana</button></li>
@@ -201,7 +203,7 @@
                     <!-- adding drop down option to easily select items in that category -->
                     <!-- sort all these manually to be alphabetic  -->
                     <td><button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                      Other Mix-in
+                      Other
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                       <li><button class="dropdown-item" type="button">Cookie Crumbs</button></li>
@@ -219,6 +221,8 @@
             </table>
         </div>
     </div>
+    </div>
+  </div>
 
     <!-- drop down -->
     <!-- <div class="container">
@@ -241,10 +245,11 @@
 
 
  <!-- location -->
+<!-- <div class="container-fluid"> -->
     <section class="location">
         <!-- <div class="text-center p-3 fixed-bottom"> -->
             <div class="row">
-                <div class="col-md-2 offset-md-5">
+                <div class="col mt-4 text-center">
                   
                   <!-- -md-3 offset-md-3 -->
                     <address>
@@ -252,14 +257,19 @@
                         1234 JavaScript Court<br>
                         Suite #Bootstrap5<br>
                         Hello Kitty, Heaven 01234<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
-                    
-                    <address>
-                        <strong>Boba World</strong><br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
                         <a href="mailto:#">Bobaworld@gmail.com</a>
                     </address>
-                
+                    
+                    <!-- <address>
+                        <strong>Boba World</strong><br>
+                        
+                    </address>
+                 -->
+                 <br>
+                 <br>
+                 <br>
+                 <br>
               </div>
             </div>
         </div>
